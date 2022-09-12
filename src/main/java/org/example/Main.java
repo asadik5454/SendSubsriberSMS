@@ -36,6 +36,7 @@ public class Main {
                     getNumber = resultSet.getString("number");
                     getComName = resultSet.getString("commercial_name");
                     getComNameTj = resultSet.getString("commercial_name");
+                    getId = resultSet.getInt("id");
                     getAmount = resultSet.getInt("amount");
                     getNextDate = resultSet.getString("next_apply_date");
                     getComName = "\"" + getComName + "\"";
